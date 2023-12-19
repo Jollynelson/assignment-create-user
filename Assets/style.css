@@ -1,0 +1,229 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* styles.css */
+@font-face {
+    font-family: 'brown', sans-serif;
+    src: url('Assets/fonts/Brown-font/BrownMedium regular.ttf') format('truetype'), /* Modern browsers */
+         url('Assets/fonts/Brown-font/Brown Bold.ttf') format('truetype'); /* Older browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Sofia Pro Regular";
+    src: url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.eot");
+    src: url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.svg#Sofia Pro Regular")format("svg");
+}
+
+
+html{
+    font-size: 10px;
+}
+
+
+.create-account-section{
+    width: 100%;
+    height: auto;
+    padding: 5rem 0rem 5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-container{
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.account-text-area, .form-area{
+    width: 50%;
+}
+
+.account-text-area{
+    display: flex;
+
+}
+
+
+.account-content-holder{
+    margin-top: 8rem;
+}
+
+.logo-holder{
+    width: auto;
+    height: auto;
+}
+
+.logo-holder > img{
+    height: 7.7rem;
+    width: 6rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.account-heading-holder{
+    margin: 5rem 0rem 2rem 0rem; 
+}
+
+
+.account-heading-holder > h1{
+    color:#000B0A;
+    font-family: 'brown', sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem; 
+    letter-spacing: -0.08rem;
+}
+
+.company-services > p{
+    color:  #737373;
+    font-family: 'brown', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+.form-area {
+    font-family: "Sofia Pro Regular";
+    padding: 3rem;
+    text-transform: capitalize;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.input-holder{
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+}
+
+.activity-holder, .password-holder, .button-holder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.password-holder{
+    position: relative;
+}
+
+.password-holder > .password-show{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    inset: 40px 0px 0px 475px;
+}
+
+.TandC-holder{
+    text-align: center;
+    width: 100%;
+}
+
+
+label{
+    color:  #011C34;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    padding-bottom: 1rem;
+}
+
+input[type="text"],
+select,
+input[type="date"],
+input[type="height"],
+input[type="password"] {
+    height: 4.8rem;
+    padding: 0px 10px 0px 10px;
+    border:1px solid #f0f0f0;
+    outline: #2EC4B6;
+}
+
+::placeholder{
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+select option {
+    color: #333;
+    background-color: #fff;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+}
+
+select option:checked {
+    color: #333;
+    background-color: #fff;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+}
+
+
+
+.btn{
+    background-color:  #2EC4B6;
+    color: #fff;
+    border: none;
+    height: 4.8rem;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
+}
+
+
+.rules{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+.rules > a{
+    color: #2EC4B6;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration-line: underline;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1340px) {
+    .create-account-section{
+        padding: 3rem 0rem 3rem 0rem;
+       
+    }
+
+    .account-container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .account-container{
+        width: 95%;
+        justify-content: center; 
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .account-text-area, .form-area{
+        width: 70%;
+    }
+
+
+    .form-area{
+        margin: 4rem;
+    }
+    
+    
+
+    .create-account-section{
+        padding: 1rem 0rem 3rem 0rem;
+       
+    }
+
+
+    form{
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        gap: 3rem;
+    }
+
+    
+    .account-content-holder{
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .input-holder{
+        width: 100%;
+    }
+}
